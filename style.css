@@ -799,7 +799,6 @@ footer ul li a {
 .imgs-left,.imgs-right{
     height: 810px;
     width: 570px;
-    /* background-color: #302e2c; */
 }
 .imgs-left{
     display: flex;
@@ -813,9 +812,15 @@ footer ul li a {
     justify-content: space-between;
 }
 .left-bottom {
+    position: relative;
     width: 100%;
     height: 250px;
     background-image: url("https://livedemo00.template-help.com/wt_prod-22021/images/masonry-gallery-7-570x250.jpg");
+}
+
+.left-bottom:hover .cover-hover{
+    display:flex !important;
+    opacity: 0.9;
 }
 
 .top1,.top2 {
@@ -823,8 +828,23 @@ footer ul li a {
     width: 270px;
 }
 .top2{
+    position: relative;
     background-image: url("https://livedemo00.template-help.com/wt_prod-22021/images/masonry-gallery-2-270x530.jpg");
 }
+.top2-cover{
+    display:none !important;
+    width: 100%;
+    height: 100%;
+    background-color:#fff;
+    transition: opacity 0.5s ease;
+    position: absolute;
+    font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; 
+}
+.top2:hover .top2-cover{
+    display:flex !important;
+    opacity: 0.9;
+}
+
 .top1{
     display: flex;
     flex-direction: column;
@@ -845,17 +865,25 @@ footer ul li a {
     display:none !important;
     width: 100%;
     height: 100%;
-    background-color: #f0e9e9;
+    background-color:#fff;
     transition: opacity 0.5s ease;
     position: absolute;
+    font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
+
 .top1-1:hover .cover-hover{
     display: flex !important;
     opacity: 0.9;
 }
 
 .top1-2{
+    position: relative;
     background-image: url("	https://livedemo00.template-help.com/wt_prod-22021/images/masonry-gallery-5-270x250.jpg");
+}
+
+.top1-2:hover .cover-hover{
+    display: flex !important;
+    opacity: 0.9; 
 }
 .imgs-right{
     display: flex;
@@ -869,10 +897,15 @@ footer ul li a {
     justify-content: space-between;
 }
 .right-bottom{
+    position: relative;
     height: 530px;
     width: 100%;
     background-image: url("https://livedemo00.template-help.com/wt_prod-22021/images/masonry-gallery-6-570x530.jpg");
-   
+}
+.right-bottom:hover .cover-hover{
+    display: flex !important;
+    opacity: 0.9; 
+    transform: translate(90deg);
 }
 
 .top-left1, .top-left2 {
@@ -881,12 +914,22 @@ footer ul li a {
 }
 
 .top-left1{
+    position: relative;
     background-image: url('	https://livedemo00.template-help.com/wt_prod-22021/images/masonry-gallery-3-270x250.jpg');
 }
+.top-left1:hover .cover-hover{
+    display: flex !important;
+    opacity: 0.9; 
+}
 .top-left2{
+    position: relative;
     background-image: url("https://livedemo00.template-help.com/wt_prod-22021/images/masonry-gallery-4-270x250.jpg");
 }
 
+.top-left2:hover .cover-hover{
+    display: flex !important;
+    opacity: 0.9; 
+}
 
 
 .overlay {
