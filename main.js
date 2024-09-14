@@ -36,6 +36,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     closeBtn.addEventListener('click', function () {
         searchOverlay.classList.remove('show');
+        searchOverlay.style.display = 'none';
     });
 });
 
