@@ -976,3 +976,286 @@ footer ul li a {
         transform: rotate(360deg);
     }
 }
+
+
+
+
+
+
+/* Tablet devices (max-width: 992px) */
+@media (max-width: 992px) {
+    header, .headerAnime, .menu-up, nav, .home-container, .section2-content, .sct4-container, .home-page  {
+        width: 100%;
+    }
+
+    .menu-info {
+        display: none;
+    }
+
+    .container-menu {
+        display: flex;
+        justify-content: start;
+    }
+
+    .menu-up {
+        height: 76px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        padding:  15px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .home-container {
+        left: 0;
+        padding: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-side {
+        width: 100%;
+    }
+
+    .left-side h2 {
+        font-size: 40px !important;
+    }
+
+    .left-side p {
+        font-size: 18px !important;
+    }
+
+    .section2 {
+        height: auto;
+        flex-wrap: wrap;
+        background-image: none;
+    }
+
+    .section2-content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .content-left, .content-right {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .section3, .section4, .sct3-container, .sct4-container {
+        flex-direction: column;
+    }
+
+    .section3 .box1 h2 {
+        font-size: 40px;
+    }
+
+    footer .footer-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+ 
+    .headerAnime {
+        height: auto;
+        padding: 10px;
+    }
+
+    .menu-down {
+        display:none;
+    }
+
+    .menu-down, nav {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .home-container {
+        top: 200px;
+    }
+
+    .left-side h2 {
+        font-size: 28px;
+    }
+
+    .left-side p {
+        font-size: 16px;
+    }
+
+    .left-side button {
+        width: 150px;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .section2, .section3, .section4 {
+        height: auto;
+        padding: 20px;
+    }
+
+    .section2-content {
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    .left-top {
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .left-top h1 {
+        font-size: 30px;
+
+    }
+
+    .left-top p {
+        width: 400px;
+        font-size: 15px;
+    }
+
+
+    .content-left {
+        height: auto;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .content-right {
+        height: auto;
+        flex-wrap: wrap;
+        width: 100%;
+
+    }
+
+    .part1, .part2, .section2-content {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .sct3-container {
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .sct3-container .box1 h2 {
+        font-size: 36px;
+    }
+
+    .sct4-container {
+        height: auto;
+        width: 100%;
+    } 
+
+    footer {
+        padding: 20px;
+        height: auto;
+        margin: 20px 0;
+    }
+
+    .footer-section {
+        height: auto;
+        text-align: center;
+    }
+
+    footer .footer-container {
+        height: auto;
+        width: 100%;
+    }
+
+    .gallery-images img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .section6 {
+        width: 100%;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .section6-content {
+        width: 100%;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .section6 h1 {
+        width: 100%;
+        margin: 15px;
+    }
+
+    .gallery-imgs {
+        width: 100%;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .box-up, .box-down {
+        display: flex;
+    }
+}
+
+
+
+@media (max-width: 600px) {
+    .menu-up, .menu-down, nav {
+        flex-direction: column;
+    }
+
+    .home-container {
+        top: 150px;
+        padding: 10px;
+    }
+
+    .left-side h2 {
+        font-size: 24px;
+    }
+
+    .left-side p {
+        font-size: 14px;
+    }
+
+    .left-side button {
+        width: 130px;
+        height: 45px;
+        font-size: 14px;
+    }
+
+    .section2-content, .section4 {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .section3 .box1 h2 {
+        font-size: 28px;
+    }
+
+    .box-up, .box-down {
+        display: flex;
+    }
+
+    footer {
+        padding: 10px;
+    }
+
+    .footer-section {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
