@@ -532,6 +532,10 @@ nav ul li a:hover {
     display: flex;
 }
 
+.box-up, .box-down{
+    display: flex;
+}
+
 .sct3-container .box1 {
     width: 300px;
     height: 164px;
@@ -1213,49 +1217,84 @@ footer ul li a {
 
 
 @media (max-width: 600px) {
-    .menu-up, .menu-down, nav {
-        flex-direction: column;
-    }
-
-    .home-container {
-        top: 150px;
-        padding: 10px;
-    }
-
-    .left-side h2 {
-        font-size: 24px;
+    .home-page {
+        height: auto;
+        width: 100%;
     }
 
     .left-side p {
-        font-size: 14px;
+        font-size: 14px !important;
+    } 
+
+    .left-side h2 {
+        font-size: 32px !important;
     }
 
-    .left-side button {
-        width: 130px;
-        height: 45px;
-        font-size: 14px;
+    .left-top p {
+        width: 100%;
     }
 
-    .section2-content, .section4 {
-        flex-direction: column;
-        padding: 10px;
+    .section3 {
+        height: auto;
+        flex-wrap: wrap;
+        width: 100%;
     }
 
-    .section3 .box1 h2 {
-        font-size: 28px;
+    .sct3-container {
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+
     }
 
     .box-up, .box-down {
+        flex-wrap: wrap;
+        width: 100%;
+
+    }
+
+    .section4 {
+        width: 100%;
+        height: auto;
+    }
+
+    .w-100 {
         display: flex;
+        width: 100%;
+        justify-content: center;
     }
 
-    footer {
-        padding: 10px;
+    .accordion {
+        width: 100%;
     }
 
-    .footer-section {
-        text-align: center;
-        margin-bottom: 20px;
+    .section6 {
+        width: 100%;
+    }
+
+    .section6-content {
+        flex-wrap: wrap;
+    }
+
+    .imgs-left, .imgs-right, .gallery-imgs{
+        flex-wrap: wrap;
+        height: auto;
+        width: 100%;
+    }
+
+    .left-top {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .left-bottom {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .gallery-images img {
+        width: 100%;
+        object-fit: cover;
     }
 }
 
